@@ -19,3 +19,15 @@ from django.urls import path
 urlpatterns = [
     path('admin/', admin.site.urls),
 ]
+
+
+# from django.conf.urls import include, url
+# from django.contrib import admin
+# from django.conf import settings
+# from django.conf.urls.static import static
+
+
+# urlpatterns = [
+#     url(r"^admin/", include(admin.site.urls)),
+#     url(r"^posts/", include("posts.urls", namespace="posts")),
+# ]
